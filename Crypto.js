@@ -1,0 +1,6 @@
+var arl = require("crypto")
+var myl = arl.getHashes()
+console.log(myl)
+var cry = arl.createHash("sha1")
+cry.update("ahmed")
+console.log(cry.digest('hex'))
